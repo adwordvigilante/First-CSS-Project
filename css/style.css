@@ -1,0 +1,71 @@
+/* GLOBAL CSS SETTINGS */
+
+*{
+	font-family: sans-serif;
+}
+
+/* TITLE */
+
+h1 {
+	text-align: center;
+}
+
+/* CONTAINERS AND DIV ELEMENTS */
+
+#container {
+	width: 100%;
+	height: 30px;
+	color: #fff;
+
+}
+
+.sidebar {
+	width: 15%;
+	background: #8a1717;
+	float: right;
+	height: 500px;
+	display: inline-block;
+
+}
+
+.sidebar h2 {
+	text-align: center;
+}
+
+.sidebar ul {
+	margin-right: 35px;
+}
+
+.main-content {
+	width: 85%;
+	height: 500px;
+	background: red;
+	float: left;
+	display: inline-block;
+}
+
+.main-content h2, p {
+	text-align: center;
+}
+
+/* NAViGATION */
+
+nav ul li {
+	list-style: none;
+	text-align: center;
+}
+
+/* LINKS */
+
+nav a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:active {
+	color: #fff;
+}
+
+nav a:visited {
+	color: #fff;
+}
